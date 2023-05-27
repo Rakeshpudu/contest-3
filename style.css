@@ -1,0 +1,163 @@
+*{
+    margin:0px;
+    border:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    
+}
+body{
+    background-color: rgb(23, 23, 23);
+    color:white;
+}
+/* Css for nav-bar */
+.nav-mid{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding:5px;
+    /* margin:5px; */
+}
+.nav-mid a{
+    text-decoration: none;
+    color: white;
+    
+    }
+   
+
+#nav-bar{
+    width:100%;
+    background-color: rgb(25, 25, 25);
+    height:5vh;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        
+        border: 3px solid #73AD21;
+      
+}
+.social-media{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    gap:2px;
+}
+.background-img .line-break{
+    border:5px soild red;
+}
+.background-img h1{
+    padding-top: 85px;
+    font-size:65px;
+    border-bottom: 10px soild red;
+}
+.background-img p{
+    font-size:large;
+    margin: 65px;
+    width:25%;
+}
+.background-img .line-break{
+    width:25%;
+    border-bottom: 10px solid rgb(200, 19, 19);
+    margin-left: 65px;
+}
+.background-img{
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg');
+    width:100%;
+    height:90vh;
+    top:0px;
+}
+/* ABOUT US SECTION............ */
+/* .container-2{
+    
+    display: flex;
+    align-content: center;
+
+} */
+.container-2{
+    margin:0px 30px; 
+}
+.container-2 .about-heading{
+
+    text-align: center;
+    PADDING:25px;
+}
+
+.container-2 .about-section{
+    display:flex;
+    justify-content:center;
+}
+
+.container2-left p{
+    width: 55%;
+    margin-left:150px; 
+    border-top: 5px solid red;
+}
+.container2-right img{
+    width:600px;
+    height:300px;
+    margin-right: 150px;
+}
+/* menu........... */
+.menu-section{
+    margin:0px 30px;
+}
+ .menu-heading h1{
+    text-align:center;
+   
+
+}
+.menu-hr{
+    width:300px;
+    border:5px solid red;
+    margin-left:39%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.menu-section {
+    padding:10px;
+    width: 75%;
+    margin-left:150px; 
+}
+.menu img{
+    width:150px;
+    height:150px;
+}
+.menu{
+    display: grid;
+    grid-template-columns:repeat(2,35%);
+    grid-template-rows: repeat(2,35%);
+    justify-content:center;
+    margin-top:10px;
+}
+.menu-text p{
+    margin-left:10px;
+    margin-right: 20px;
+}
+.menu-text h3{
+    margin-left:10px;
+}
+ .items{
+    display: flex;
+    gap:0px;
+}
+.items .menu-text{
+    float:left;
+}
+.logo-location{
+  margin-left: 200px;
+  margin-top:200px;
+
+}
+/* footeer................... */
+footer{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-foot{
+    display:grid;
+    margin-left: 75px;;
+}
